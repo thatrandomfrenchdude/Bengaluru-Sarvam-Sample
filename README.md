@@ -1,4 +1,4 @@
-# **Sarvam SDK Setup & WiFi Connection Guide**
+# **Sarvam Local Model Guide**
 
 ## **Step 1: Connecting to WiFi**
 Before proceeding with the SDK setup, connect to the designated WiFi network. You MUST be on the event wifi to access the Sarvam model.

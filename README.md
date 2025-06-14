@@ -17,6 +17,7 @@ python -m venv venv
 .\venv\Scripts\activate  # On Windows
 # On macOS/Linux, use: source venv/bin/activate
 pip install imagine_sdk-0.4.2-py3-none-any.whl
+pip install prettyprinter # optional, for pretty printing
 ```
 
 ### Run

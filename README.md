@@ -1,6 +1,8 @@
 # **Sarvam Local Model Guide**
 
-## **Step 1: Connecting to WiFi**
+## Setup
+
+### **Step 1: Connecting to WiFi**
 Before proceeding with the SDK setup, connect to the designated WiFi network. You MUST be on the event wifi to access the Sarvam model.
 1. Open **WiFi settings** on your device.
 2. Locate the network named **"Workshop[number]_5G"**.
@@ -8,7 +10,7 @@ Before proceeding with the SDK setup, connect to the designated WiFi network. Yo
 4. Ensure **internet access** is available.
 
 
-## **Step 2: Installing Sarvam SDK**
+### **Step 2: Installing Sarvam SDK**
 Create a virtual environment and install the provided **wheel file** to set up the SDK:
 ```bash
 python -m venv venv
@@ -16,3 +18,9 @@ python -m venv venv
 # On macOS/Linux, use: source venv/bin/activate
 pip install imagine_sdk-0.4.2-py3-none-any.whl
 ```
+
+### Run
+
+Use `local_sarvam.py` to run the sarvam model.
+
+Full documentation for the Imagine Client is available [here](https://aisuite.cirrascale.com/sdk/index.html).
